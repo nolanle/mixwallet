@@ -485,7 +485,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = X4ZGZH5TFW;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MIXWallet/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "MIX Wallet";
@@ -501,6 +504,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techmix.mixwallet;
 				PRODUCT_NAME = MIXWallet;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -513,7 +517,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X4ZGZH5TFW;
 				INFOPLIST_FILE = MIXWallet/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "MIX Wallet";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,6 +537,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.techmix.mixwallet;
 				PRODUCT_NAME = MIXWallet;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "MIX Wallet Profile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
