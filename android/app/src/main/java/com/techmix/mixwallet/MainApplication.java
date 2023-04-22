@@ -1,4 +1,4 @@
-package com.mixwallet;
+package com.techmix.mixwallet;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

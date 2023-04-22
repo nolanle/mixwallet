@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.mixwallet"
+    namespace "com.techmix.mixwallet"
     defaultConfig {
-        applicationId "com.mixwallet"
+        applicationId "com.techmix.mixwallet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 5

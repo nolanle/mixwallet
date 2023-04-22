@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'mixwallet' do
+target 'MIXWallet' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'mixwallet' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'mixwalletTests' do
+  target 'MIXWalletTests' do
     inherit! :complete
     # Pods for testing
   end
