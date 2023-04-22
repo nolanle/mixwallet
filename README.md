@@ -1,2 +1,1 @@
-# mixwallet
-Multiple Crypto Chain Wallet
+# MIX Wallet | Multiple Crypto Chain Wallet
