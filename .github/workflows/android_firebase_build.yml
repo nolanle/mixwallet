@@ -1,4 +1,4 @@
-name: Android Build ## name of the workflow
+name: Android Firebase Build ## name of the workflow
 
 on:
   workflow_dispatch: # To trigger manual build

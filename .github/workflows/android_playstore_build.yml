@@ -1,4 +1,4 @@
-name: Android Build ## name of the workflow
+name: Android PlayStore Build ## name of the workflow
 
 on:
   workflow_dispatch: # To trigger manual build
@@ -76,7 +76,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{ secrets.ANDROID_SERVICE_ACCOUNT_JSON_TEXT }}
-          packageName: com.test.test
+          packageName: com.techmix.mixwallet
           releaseFiles: android/app/build/outputs/bundle/release/*.aab
           track: alpha
           status: completed
