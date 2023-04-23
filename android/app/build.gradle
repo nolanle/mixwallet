@@ -98,8 +98,8 @@ android {
         applicationId "com.techmix.mixwallet"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 14
-        versionName "0.0.8-6"
+        versionCode 15
+        versionName "0.0.8-7"
     }
 
     splits {
